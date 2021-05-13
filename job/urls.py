@@ -5,5 +5,7 @@ app_name = 'job'
 
 urlpatterns = [
     # None
-    path('', views.index, name='index'),
+   
+    path('', views.start, name='start'),
+    
 ]

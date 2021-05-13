@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% load staticfiles %}
+{% load static %}
 {% block title %}Portfolio{% endblock title %}
 
 {% block content %}
@@ -9,7 +9,7 @@
         <p class="lead text-muted">Hey i am Mahmudul Alam. I am from Dahaka, Bangladesh. I am a Full Stack Web
             Developer</p>
         <p>
-            <a href="mailto:expelmahmud@gmail.com" class="btn btn-primary my-2">Email me</a>
+            <a class="navbar-brand" href="{% url 'job:start' %}"><i class="fab fa-jenkins"></i> Mahmudul</a>
         </p>
         <img src="{% static 'maf.jpg' %}" class="img-fluid img-thumbnail" alt="image" height="200px" width="300px">
     </div>
