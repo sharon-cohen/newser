@@ -9,6 +9,7 @@
 
 <h2>Installing</h2>
 <pre>open terminal and type</pre>
+<<<<<<< HEAD
 <code>git clone https://github.com/devmahmud/django-portfolio.git</code><br><br>
 
 <code>https://github.com/devmahmud/django-portfolio.git</code><br>
@@ -16,6 +17,13 @@
  
 <h2>To migrate the database open terminal in project directory and type</h2>
 <code>python manage.py makemigrations</code><br>
+=======
+<code>git clone https://github.com/devmahmud/django-portfolio.git</code>
+<p>or simply download using the url above<p>
+ 
+<h2>To migrate the database open terminal in project directory and type</h2>
+<code>python manage.py makemigrations</code>
+>>>>>>> 481bb44 (Update README.md)
 <code>python manage.py migrate</code>
 
 <h2>To use admin panel you need to create super user using this command </h2>
@@ -31,6 +39,7 @@
   Mahmudul alam<br>
   Email: expelmahmud@gmail.com
 </blockquote>
+<<<<<<< HEAD
 
 
 <h2>Project snapshot</h2>
@@ -43,3 +52,5 @@
 <div align="center">
     <img src="https://user-images.githubusercontent.com/19981097/50534993-bdcabf80-0b6e-11e9-9d02-a40817d4b307.png" width="100%"</img> 
 </div>
+=======
+>>>>>>> 481bb44 (Update README.md)
